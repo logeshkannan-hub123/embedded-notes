@@ -1,0 +1,91 @@
+
+FRIDAY
+Forwarded
+Led_struct.c
+C•1 kB
+11:12 am
+SUNDAY
+GPIO introduction and main features
+10:29 am
+0:14
+10:29 am
+MONDAY
+Forwarded
+CPU-only know Addition
+Basics:
+RAM-Primary memory storage
+secondary storage(hardware)->Non-volatile Memory
+Clock->Heart beat of CPU
+RAM-2 Types
+                  S-RAM : FlipFlop(made of) Static
+                  D-RAM: capacitors(made of) Dynamic
+ARM:
+             Cortex  A->Application
+                  Cortex  R->Real time Application
+                  Cortex  M->Microcontroller(Process only)
+
+1.Static RAM is faster than Dynamic Ram
+BUS -> used to communicate between CPU up Computer ( Median)
+Pheripherals :-
+                        GPIO => To communicate environment
+                                   => These are sent by ‘System Bus’ (s bus)
+
+AHB1=>180MHZ(Maximum)
+it is two types
+
+    AHB/APB2-> 90MHZ(Maximum)
+
+2.AHB/APBI-> 45MHZ(Maximum)
+9:05 pm
+Forwarded
+GPIO
+    1. Reading digital signals -> input
+    2. Issuing Interupts
+    3. Generating Triggers
+
+    i. Genric Pin:Values consist of one or two voltage settings.(High or Low)
+    ii. Behaviour can be programmed using software
+
+Multiplexing- This pins used this method
+Generic part- All the pins are connected to part
+
+output mode:open drain stage 
+Pull up resistor ->always use 0 or 1
+Gate drain source(GDS)
+
+Pull Push Configuration(Automatic)
+Memory Maped : using memory to acess the I&O  
+Making partion in memory with address
+9:05 pm
+TODAY
+Control Statements in C - javatpoint
+Control Statements in C with Tutorial, C language with programming examples for beginners and professionals covering concepts, c pointers, c structures, c union, c strings etc.
+www.javatpoint.com
+https://www.javatpoint.com/control-statements-in-c
+9:11 am
+Serial Communication-> 8 bit data  transfer one bit at time 
+parallel Communication -> 8 bit data transfer at the same time
+
+
+  LSB -> Lest significant bit
+  MSB -> Most Significant bit
+
+  serial communication method:
+
+      Synchronous -> data tranismited with clock
+      Asynchronous -> 
+  UART:
+        It's serial Communication
+        It is also Synchronous or AschronousReciver or Tranismited
+        UART is a Full Duplex
+    Duplex:
+        Data can be tranismited and recived
+    Simplex:
+        Data can be tranismited only or recived only
+    Half Duplex:
+        Data can transimited in only one way at a time
+    Full Duplex:
+        Data can both(transimited or recived) way at a time
+9:40 pm
+
+
